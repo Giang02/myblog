@@ -1,0 +1,222 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-D',
+1 verbose cli   'prisma@3.0.1'
+1 verbose cli ]
+2 info using npm@6.14.13
+3 info using node@v14.17.1
+4 verbose npm-session 05c11c0917cd2554
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 304 https://registry.npmjs.org/prisma 999ms (from cache)
+8 silly pacote version manifest for prisma@3.0.1 fetched in 1062ms
+9 timing stage:loadCurrentTree Completed in 1183ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 timing stage:loadIdealTree:cloneCurrentTree Completed in 0ms
+13 silly install loadShrinkwrap
+14 timing stage:loadIdealTree:loadShrinkwrap Completed in 35ms
+15 silly install loadAllDepsIntoIdealTree
+16 silly resolveWithNewModule prisma@3.0.1 checking installable status
+17 silly removeObsoleteDep removing prisma@3.0.1 from the tree as its been replaced by a newer version or is no longer required
+18 silly removeObsoleteDep removing @prisma/engines@2.31.0-32.2452cc6313d52b8b9a96999ac0e974d0aedf88db from the tree as its been replaced by a newer version or is no longer required
+19 http fetch GET 304 https://registry.npmjs.org/@prisma%2fengines 1590ms (from cache)
+20 silly pacote version manifest for @prisma/engines@2.31.0-32.2452cc6313d52b8b9a96999ac0e974d0aedf88db fetched in 1616ms
+21 silly resolveWithNewModule @prisma/engines@2.31.0-32.2452cc6313d52b8b9a96999ac0e974d0aedf88db checking installable status
+22 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 1662ms
+23 timing stage:loadIdealTree Completed in 1712ms
+24 silly currentTree hello-prisma@1.0.0
+24 silly currentTree +-- @cspotcode/source-map-consumer@0.8.0
+24 silly currentTree +-- @cspotcode/source-map-support@0.6.1
+24 silly currentTree +-- @prisma/engines@2.31.0-32.2452cc6313d52b8b9a96999ac0e974d0aedf88db
+24 silly currentTree +-- @tsconfig/node10@1.0.8
+24 silly currentTree +-- @tsconfig/node12@1.0.9
+24 silly currentTree +-- @tsconfig/node14@1.0.1
+24 silly currentTree +-- @tsconfig/node16@1.0.2
+24 silly currentTree +-- @types/node@16.9.0
+24 silly currentTree +-- acorn-walk@8.2.0
+24 silly currentTree +-- acorn@8.5.0
+24 silly currentTree +-- arg@4.1.3
+24 silly currentTree +-- create-require@1.1.1
+24 silly currentTree +-- diff@4.0.2
+24 silly currentTree +-- make-error@1.3.6
+24 silly currentTree +-- prisma@3.0.1
+24 silly currentTree +-- ts-node@10.2.1
+24 silly currentTree +-- typescript@4.4.2
+24 silly currentTree `-- yn@3.1.1
+25 silly idealTree hello-prisma@1.0.0
+25 silly idealTree +-- @cspotcode/source-map-consumer@0.8.0
+25 silly idealTree +-- @cspotcode/source-map-support@0.6.1
+25 silly idealTree +-- @prisma/engines@2.31.0-32.2452cc6313d52b8b9a96999ac0e974d0aedf88db
+25 silly idealTree +-- @tsconfig/node10@1.0.8
+25 silly idealTree +-- @tsconfig/node12@1.0.9
+25 silly idealTree +-- @tsconfig/node14@1.0.1
+25 silly idealTree +-- @tsconfig/node16@1.0.2
+25 silly idealTree +-- @types/node@16.9.0
+25 silly idealTree +-- acorn-walk@8.2.0
+25 silly idealTree +-- acorn@8.5.0
+25 silly idealTree +-- arg@4.1.3
+25 silly idealTree +-- create-require@1.1.1
+25 silly idealTree +-- diff@4.0.2
+25 silly idealTree +-- make-error@1.3.6
+25 silly idealTree +-- prisma@3.0.1
+25 silly idealTree +-- ts-node@10.2.1
+25 silly idealTree +-- typescript@4.4.2
+25 silly idealTree `-- yn@3.1.1
+26 silly install generateActionsToTake
+27 timing stage:generateActionsToTake Completed in 35ms
+28 silly diffTrees action count 1
+29 silly diffTrees update prisma@3.0.1
+30 silly decomposeActions action count 10
+31 silly decomposeActions unbuild prisma@3.0.1
+32 silly decomposeActions remove prisma@3.0.1
+33 silly decomposeActions fetch prisma@3.0.1
+34 silly decomposeActions extract prisma@3.0.1
+35 silly decomposeActions preinstall prisma@3.0.1
+36 silly decomposeActions build prisma@3.0.1
+37 silly decomposeActions install prisma@3.0.1
+38 silly decomposeActions postinstall prisma@3.0.1
+39 silly decomposeActions finalize prisma@3.0.1
+40 silly decomposeActions refresh-package-json prisma@3.0.1
+41 silly install executeActions
+42 silly doSerial global-install 10
+43 verbose correctMkdir C:\Users\mbelletti\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+44 verbose makeCacheDir UID & GID are irrelevant on win32
+45 verbose lock using C:\Users\mbelletti\AppData\Roaming\npm-cache\_locks\staging-a398f58fb5a82cb2.lock for C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\.staging
+46 silly doParallel extract 1
+47 silly extract prisma@3.0.1
+48 silly tarball trying prisma@3.0.1 by hash: sha512-ENmYAopd56nkds5/IOSTGixbkbUN2QdEzB4cp/mtaGB/G0OArbP6cnbA/9u02Pe29RdErbNOoIdCGASjpItJwQ==
+49 timing audit submit Completed in 265ms
+50 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/audits/quick 265ms
+51 timing audit body Completed in 1ms
+52 silly extract prisma@3.0.1 extracted to C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\.staging\prisma-3e2812b5 (797ms)
+53 timing action:extract Completed in 807ms
+54 silly doReverseSerial unbuild 10
+55 silly unbuild prisma@3.0.1
+56 info lifecycle prisma@3.0.1~preuninstall: prisma@3.0.1
+57 info lifecycle prisma@3.0.1~uninstall: prisma@3.0.1
+58 verbose unbuild rmStuff prisma@3.0.1 from C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules
+59 silly isEverInside C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\.bin\prisma.ps1 is not inside C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\prisma
+60 silly gentlyRm parent.path = C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\prisma
+61 silly gentlyRm parent.managed = C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\prisma is in C:\Users\mbelletti\Documents\Projects\hello-prisma
+62 silly gentlyRm target.path =  C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\.bin\prisma.ps1
+63 silly gentlyRm target.symlink = ../prisma/build/index.js
+64 silly gentlyRm target.managed = C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\.bin\prisma.ps1 is in C:\Users\mbelletti\Documents\Projects\hello-prisma
+65 silly gentlyRm target.inParent =  {
+65 silly gentlyRm   target: 'C:\\Users\\mbelletti\\Documents\\Projects\\hello-prisma\\node_modules\\prisma\\build\\index.js',
+65 silly gentlyRm   path: 'C:\\Users\\mbelletti\\Documents\\Projects\\hello-prisma\\node_modules\\prisma'
+65 silly gentlyRm }
+66 silly isEverInside C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\.bin\prisma2.ps1 is not inside C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\prisma
+67 silly gentlyRm parent.path = C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\prisma
+68 silly gentlyRm parent.managed = C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\prisma is in C:\Users\mbelletti\Documents\Projects\hello-prisma
+69 silly gentlyRm target.path =  C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\.bin\prisma2.ps1
+70 silly gentlyRm target.symlink = ../prisma/build/index.js
+71 silly gentlyRm target.managed = C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\.bin\prisma2.ps1 is in C:\Users\mbelletti\Documents\Projects\hello-prisma
+72 silly gentlyRm target.inParent =  {
+72 silly gentlyRm   target: 'C:\\Users\\mbelletti\\Documents\\Projects\\hello-prisma\\node_modules\\prisma\\build\\index.js',
+72 silly gentlyRm   path: 'C:\\Users\\mbelletti\\Documents\\Projects\\hello-prisma\\node_modules\\prisma'
+72 silly gentlyRm }
+73 silly isEverInside C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\.bin\prisma2.cmd is not inside C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\prisma
+74 silly gentlyRm parent.path = C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\prisma
+75 silly gentlyRm parent.managed = C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\prisma is in C:\Users\mbelletti\Documents\Projects\hello-prisma
+76 silly gentlyRm target.path =  C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\.bin\prisma2.cmd
+77 silly gentlyRm target.symlink = ..\prisma\build\index.js
+78 silly gentlyRm target.managed = C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\.bin\prisma2.cmd is in C:\Users\mbelletti\Documents\Projects\hello-prisma
+79 silly gentlyRm target.inParent =  {
+79 silly gentlyRm   target: 'C:\\Users\\mbelletti\\Documents\\Projects\\hello-prisma\\node_modules\\prisma\\build\\index.js',
+79 silly gentlyRm   path: 'C:\\Users\\mbelletti\\Documents\\Projects\\hello-prisma\\node_modules\\prisma'
+79 silly gentlyRm }
+80 silly isEverInside C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\.bin\prisma.cmd is not inside C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\prisma
+81 silly gentlyRm parent.path = C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\prisma
+82 silly gentlyRm parent.managed = C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\prisma is in C:\Users\mbelletti\Documents\Projects\hello-prisma
+83 silly gentlyRm target.path =  C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\.bin\prisma.cmd
+84 silly gentlyRm target.symlink = ..\prisma\build\index.js
+85 silly gentlyRm target.managed = C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\.bin\prisma.cmd is in C:\Users\mbelletti\Documents\Projects\hello-prisma
+86 silly gentlyRm target.inParent =  {
+86 silly gentlyRm   target: 'C:\\Users\\mbelletti\\Documents\\Projects\\hello-prisma\\node_modules\\prisma\\build\\index.js',
+86 silly gentlyRm   path: 'C:\\Users\\mbelletti\\Documents\\Projects\\hello-prisma\\node_modules\\prisma'
+86 silly gentlyRm }
+87 silly isEverInside C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\.bin\prisma2 is not inside C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\prisma
+88 silly gentlyRm parent.path = C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\prisma
+89 silly gentlyRm parent.managed = C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\prisma is in C:\Users\mbelletti\Documents\Projects\hello-prisma
+90 silly gentlyRm target.path =  C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\.bin\prisma2
+91 silly gentlyRm target.symlink = ../prisma/build/index.js
+92 silly gentlyRm target.managed = C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\.bin\prisma2 is in C:\Users\mbelletti\Documents\Projects\hello-prisma
+93 silly gentlyRm target.inParent =  {
+93 silly gentlyRm   target: 'C:\\Users\\mbelletti\\Documents\\Projects\\hello-prisma\\node_modules\\prisma\\build\\index.js',
+93 silly gentlyRm   path: 'C:\\Users\\mbelletti\\Documents\\Projects\\hello-prisma\\node_modules\\prisma'
+93 silly gentlyRm }
+94 silly isEverInside C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\.bin\prisma is not inside C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\prisma
+95 silly gentlyRm parent.path = C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\prisma
+96 silly gentlyRm parent.managed = C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\prisma is in C:\Users\mbelletti\Documents\Projects\hello-prisma
+97 silly gentlyRm target.path =  C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\.bin\prisma
+98 silly gentlyRm target.symlink = ../prisma/build/index.js
+99 silly gentlyRm target.managed = C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\.bin\prisma is in C:\Users\mbelletti\Documents\Projects\hello-prisma
+100 silly gentlyRm target.inParent =  {
+100 silly gentlyRm   target: 'C:\\Users\\mbelletti\\Documents\\Projects\\hello-prisma\\node_modules\\prisma\\build\\index.js',
+100 silly gentlyRm   path: 'C:\\Users\\mbelletti\\Documents\\Projects\\hello-prisma\\node_modules\\prisma'
+100 silly gentlyRm }
+101 info lifecycle prisma@3.0.1~postuninstall: prisma@3.0.1
+102 timing action:unbuild Completed in 78ms
+103 silly doSerial remove 10
+104 silly remove C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\prisma
+105 timing action:remove Completed in 3307ms
+106 verbose unlock done using C:\Users\mbelletti\AppData\Roaming\npm-cache\_locks\staging-a398f58fb5a82cb2.lock for C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\.staging
+107 timing stage:rollbackFailedOptional Completed in 1ms
+108 timing stage:runTopLevelLifecycles Completed in 7374ms
+109 silly saveTree hello-prisma@1.0.0
+109 silly saveTree +-- @types/node@16.9.0
+109 silly saveTree +-- prisma@3.0.1
+109 silly saveTree | `-- @prisma/engines@2.31.0-32.2452cc6313d52b8b9a96999ac0e974d0aedf88db
+109 silly saveTree +-- ts-node@10.2.1
+109 silly saveTree | +-- @cspotcode/source-map-support@0.6.1
+109 silly saveTree | | `-- @cspotcode/source-map-consumer@0.8.0
+109 silly saveTree | +-- @tsconfig/node10@1.0.8
+109 silly saveTree | +-- @tsconfig/node12@1.0.9
+109 silly saveTree | +-- @tsconfig/node14@1.0.1
+109 silly saveTree | +-- @tsconfig/node16@1.0.2
+109 silly saveTree | +-- acorn-walk@8.2.0
+109 silly saveTree | +-- acorn@8.5.0
+109 silly saveTree | +-- arg@4.1.3
+109 silly saveTree | +-- create-require@1.1.1
+109 silly saveTree | +-- diff@4.0.2
+109 silly saveTree | +-- make-error@1.3.6
+109 silly saveTree | `-- yn@3.1.1
+109 silly saveTree `-- typescript@4.4.2
+110 warn hello-prisma@1.0.0 No description
+111 warn hello-prisma@1.0.0 No repository field.
+112 verbose stack Error: EPERM: operation not permitted, unlink 'C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\prisma\query_engine-windows.dll.node'
+113 verbose cwd C:\Users\mbelletti\Documents\Projects\hello-prisma\prisma
+114 verbose Windows_NT 10.0.19042
+115 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-D" "prisma@3.0.1"
+116 verbose node v14.17.1
+117 verbose npm  v6.14.13
+118 error code EPERM
+119 error syscall unlink
+120 error path C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\prisma\query_engine-windows.dll.node
+121 error errno -4048
+122 error Error: EPERM: operation not permitted, unlink 'C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\prisma\query_engine-windows.dll.node'
+122 error  [OperationalError: EPERM: operation not permitted, unlink 'C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\prisma\query_engine-windows.dll.node'] {
+122 error   cause: [Error: EPERM: operation not permitted, unlink 'C:\Users\mbelletti\Documents\Projects\hello-prisma\node_modules\prisma\query_engine-windows.dll.node'] {
+122 error     errno: -4048,
+122 error     code: 'EPERM',
+122 error     syscall: 'unlink',
+122 error     path: 'C:\\Users\\mbelletti\\Documents\\Projects\\hello-prisma\\node_modules\\prisma\\query_engine-windows.dll.node'
+122 error   },
+122 error   errno: -4048,
+122 error   code: 'EPERM',
+122 error   syscall: 'unlink',
+122 error   path: 'C:\\Users\\mbelletti\\Documents\\Projects\\hello-prisma\\node_modules\\prisma\\query_engine-windows.dll.node',
+122 error   parent: 'hello-prisma'
+122 error }
+123 error The operation was rejected by your operating system.
+123 error It's possible that the file was already in use (by a text editor or antivirus),
+123 error or that you lack permissions to access it.
+123 error
+123 error If you believe this might be a permissions issue, please double-check the
+123 error permissions of the file and its containing directories, or try running
+123 error the command again as root/Administrator.
+124 verbose exit [ -4048, true ]
